@@ -1,20 +1,20 @@
-import type { Metadata } from "next";
-import "./globals.css";
+@import "tailwindcss";
 
-export const metadata: Metadata = {
-  title: "CAREVO | Garage automobile à Biesles",
-  description:
-    "CAREVO à Biesles : entretien, réparation, diagnostic électronique, pare-brise, achat, vente et reprise de véhicules.",
-};
+html {
+  scroll-behavior: smooth;
+}
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <html lang="fr">
-      <body>{children}</body>
-    </html>
-  );
+body {
+  margin: 0;
+  background: white;
+  color: #0f172a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
 }
