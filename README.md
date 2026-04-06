@@ -1,18 +1,13 @@
-{
-  "name": "carevo-site",
-  "private": true,
-  "version": "0.1.0",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "framer-motion": "^12.0.0",
-    "lucide-react": "^0.511.0",
-    "next": "^16.2.2",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
-  }
-}
+# CAREVO Site
+
+## Lancement en local
+```bash
+npm install
+npm run dev
+```
+
+## Déploiement Vercel
+1. Importer le dossier dans GitHub
+2. Importer le repo dans Vercel
+3. Ajouter le domaine `carevo.fr`
+4. Suivre les DNS indiqués par Vercel
